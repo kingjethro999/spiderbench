@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --port 5173 --host 127.0.0.1",
-    "build": "vite build",
+    "dev": "node api.js && vite --port 5173 --host 127.0.0.1",
+    "build": "node api.js && vite build",
     "preview": "vite preview --port 4173 --host 127.0.0.1"
   },
   "dependencies": {
